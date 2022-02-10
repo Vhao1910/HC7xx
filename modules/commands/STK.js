@@ -14,7 +14,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("stk")==0 || (event.body.indexOf("stk")==0)) {
 		var msg = {
-				body: "Mình cho thuê bot với giá 0đ nhưng bạn nào có lòng tốt thì cứ bank qua cho mình nhé <3 iuuu\n\n\n🐳🐳🐳 MOMO: 0869675905 - VietinBank: 104872346437- Trần Viết Hà🐳🐳🐳",
+				body: "Mình cho thuê bot với giá 0đ nhé <3 iuuu\n\n\n🐳🐳🐳 MOMO: 0869675905 - VietinBank: 104872346437- Nguyễn Văn Hào🐳🐳🐳",
 			}
 			api.sendMessage(msg, threadID, messageID);
 		}
